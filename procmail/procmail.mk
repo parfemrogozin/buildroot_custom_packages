@@ -10,7 +10,7 @@ PROCMAIL_SITE = http://ftp.osuosl.org/pub/blfs/conglomeration/procmail
 PROCMAIL_LICENSE =  GPL or Artistic License
 PROCMAIL_LICENSE_FILES = COPYING
 
-PROCMAIL_CFLAGS += -Os -lm -DPROCMAIL
+PROCMAIL_CFLAGS += -Os -lm -DPROCMAIL # -lm (math library link) should by in some different variable
 
 define LIBFOO_PRE_PATCH_HOOKS
 	sed -i 's/getline/get_line/' $(@D)/src/*.[ch]
