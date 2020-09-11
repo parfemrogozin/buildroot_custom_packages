@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PROCMAIL
+	bool "procmail"
+	help
+	  Procmail - autonomous mail processor
+	  Useful for filtering and sorting incoming mail.
+	  http://www.linuxfromscratch.org/blfs/view/svn/basicnet/procmail.html
