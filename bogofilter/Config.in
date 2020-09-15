@@ -1,7 +1,10 @@
 config BR2_PACKAGE_BOGOFILTER
 	bool "bogofilter"
-	select BR2_PACKAGE_BERKELEYDB	
+	select BR2_PACKAGE_BERKELEYDB
 	help
 	  Bogofilter - mail filter
-	  The Bogofilter application is a mail filter that classifies mail as spam or ham (non-spam) by a statistical analysis of the message's header and content (body).
+	  The Bogofilter application is a mail filter that
+	  classifies mail as spam or ham (non-spam) by a
+	  statistical analysis of the message's header and content
+	  (body).
 	  https://bogofilter.sourceforge.io
